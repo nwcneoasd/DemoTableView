@@ -14,6 +14,7 @@
 		EDB3729D1A4CF24A004BEE9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDB3729C1A4CF24A004BEE9A /* Images.xcassets */; };
 		EDB372A01A4CF24A004BEE9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDB3729E1A4CF24A004BEE9A /* LaunchScreen.xib */; };
 		EDB372AC1A4CF24A004BEE9A /* DemoTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB372AB1A4CF24A004BEE9A /* DemoTableViewTests.m */; };
+		EDB372B91A4D55E1004BEE9A /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = EDB372B81A4D55E1004BEE9A /* image1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		EDB372A51A4CF24A004BEE9A /* DemoTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDB372AA1A4CF24A004BEE9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EDB372AB1A4CF24A004BEE9A /* DemoTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoTableViewTests.m; sourceTree = "<group>"; };
+		EDB372B81A4D55E1004BEE9A /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				EDB372961A4CF24A004BEE9A /* ViewController.h */,
 				EDB372971A4CF24A004BEE9A /* ViewController.m */,
 				EDB372991A4CF24A004BEE9A /* Main.storyboard */,
+				EDB372B81A4D55E1004BEE9A /* image1.png */,
 				EDB3729C1A4CF24A004BEE9A /* Images.xcassets */,
 				EDB3729E1A4CF24A004BEE9A /* LaunchScreen.xib */,
 				EDB3728F1A4CF24A004BEE9A /* Supporting Files */,
@@ -201,6 +204,7 @@
 			files = (
 				EDB3729B1A4CF24A004BEE9A /* Main.storyboard in Resources */,
 				EDB372A01A4CF24A004BEE9A /* LaunchScreen.xib in Resources */,
+				EDB372B91A4D55E1004BEE9A /* image1.png in Resources */,
 				EDB3729D1A4CF24A004BEE9A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +418,7 @@
 				EDB372B11A4CF24A004BEE9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EDB372B21A4CF24A004BEE9A /* Build configuration list for PBXNativeTarget "DemoTableViewTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +427,7 @@
 				EDB372B41A4CF24A004BEE9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
