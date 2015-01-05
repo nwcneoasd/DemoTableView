@@ -48,7 +48,7 @@
     HeightForSecton1=700;  //这里这是第一页的高度
     HeightForAlertView=50;//这里设置过渡提醒页的高度
     HeightForSecton2=850;//这里设置第二页的高度
-    whenDown=HeightForSecton1-self.view.frame.size.height+HeightForAlertView;//当前是第一页。这里设置的是当过渡框完全显示时 滑动到下一页。可具体修改
+    whenDown=HeightForSecton1-self.scrollView.frame.size.height+HeightForAlertView;//当前是第一页。这里设置的是当过渡框完全显示时 滑动到下一页。可具体修改
     
     whenUp=HeightForSecton1;//当前是第二页。这里设置的是当过渡框完全显示时 滑动到上一页。  可具体修改
     [self.scrollView setContentSize:CGSizeMake(0, HeightForSecton1)];//一开始是第一页,所以只用显示第一页的滑动大小
